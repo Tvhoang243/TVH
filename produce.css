@@ -1,0 +1,5 @@
+.square:nth-child(1) {
+    border-color: #e1182c;
+    background: #e1182c;
+   color: white;
+   }

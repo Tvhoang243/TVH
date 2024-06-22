@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VANS Việt Nam | VANS Authentic Classic Black/White</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="/Sanpham/bootstrap.min.css"> -->
+    <script src="/Sanpham/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="top-menu">
+        <div>
+            <img data-v-53cb9f64=""
+                src="https://bizweb.dktcdn.net/100/140/774/themes/827866/assets/logo.png?1709888193110" alt=""
+                class="logo">
+        </div>
+        <div class="page">
+            <a href="home.html">HOME</a>
+            <a href="produce.html">ALL VANS</a>
+            <a href="rate.html">ĐÁNH GIÁ</a>
+            <a href="nap.html">NẠP</a>
+        </div>
+        <div class="icon">
+            
+            <a href="cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+
+            </a>
+            <i class="fas fa-user-circle" style="border-right: 1px solid black; padding-left: 30px; ">
+                <h10 id="money">0đ</h10>
+            </i>
+            <a href="login.html">
+                <i class="fas fa-sign-out-alt"></i>
+            </a>
+
+        </div>
+    </div>
+    <div class="mid-header">
+        <h1>Nạp Tiền</h1>
+        <div style="padding-top: 10px;"><span>Trang chủ</span> / <span
+                style="color: #e1182c;">Nạp tiền</span></div>
+
+    </div>
+
+
+
+
+    <div class="container" id="nap">
+        <p style=" font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+        color: #666;">Tự động 24/7 - Nhập sai mệnh giá sẽ mất thẻ.</p>
+        <h1 style=" margin-right: 100px; font-size: 20px;">Nhà mạng (Ưu tiên Viettel, Vinaphone)</h1>
+        <form id="topUpForm">
+            <select id="network">
+                <option value="viettel" selected>Viettel</option>
+                <option value="vinaphone">Vinaphone</option>
+                <option value="mobifone">Mobifone</option>
+            </select>
+            <h1 style=" text-align: start; font-size: 20px; padding-left: 17px;"> Mệnh giá</h1>
+            <input type="text" id="amount" placeholder="Amount" value="10,000 ₫">
+            <input type="text" id="serial" placeholder="Số serial" style="margin-top: 20px;">
+            <input type="text" id="ma" placeholder="Mã thẻ " style="margin-top: 20px;">
+            <button type="submit" style="margin-top: 20px;">NẠP TIỀN</button>
+        </form>
+        <p id="message"></p>
+    </div>
+
+
+
+
+    <div id="footer">
+        <div class="box-1">
+            <div class="logo">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <p>Cung cấp sản phẩm với chất lượng an toàn cho quý khách</p>
+        </div>
+        <div class="box-1">
+            <h3>NỘI DUNG</h3>
+            <ul class="quick-menu">
+                <div class="item">
+                    <a href="">Trang chủ</a>
+                </div>
+                <div class="item">
+                    <a href="">Sản phẩm</a>
+                </div>
+                <div class="item">
+                    <a href="">Blog</a>
+                </div>
+                <div class="item">
+                    <a href="">Liên hệ</a>
+                </div>
+            </ul>
+        </div>
+        <div class="box-1">
+            <h3>LIÊN HỆ</h3>
+            <form action="">
+                <input type="text" placeholder="Địa chỉ email" style="text-decoration: white;">
+                <button>Nhận tin</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="info.js"></script>
+<script src="cart.js"></script>
+<script src="nap.js"></script>
+</html>

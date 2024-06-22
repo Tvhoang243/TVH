@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Sanpham/bootstrap.min.css">
+    <script src="/Sanpham/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <div class="top-menu">
+        <div>
+            <img data-v-53cb9f64=""
+                src="https://bizweb.dktcdn.net/100/140/774/themes/827866/assets/logo.png?1709888193110" alt=""
+                class="logo">
+        </div>
+        <div class="page">
+            <a href="home.html">HOME</a>
+            <a href="produce.html">ALL VANS</a>
+            <a href="rate.html">ĐÁNH GIÁ</a>
+            <a href="nap.html">NẠP</a>
+            
+        </div>
+        <div class="icon">
+           
+            <a href="cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+
+            </a>
+            <i class="fas fa-user-circle" style="border-right: 1px solid black; padding-left: 30px; ">
+                <h10 id="money">0đ</h10>
+            </i>
+            <a href="login.html">
+                <i class="fas fa-sign-out-alt"></i>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="mid-header">
+        <h1>Giỏ hàng</h1>
+        <div style="padding-top: 10px;"><span>Trang chủ</span> / <span
+                style="color: #e1182c;">Giỏ hàng</span></div>
+
+    </div>
+
+    <main>
+        <div class="container" style="padding-bottom: 100px; padding-top: 150px;">
+
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Tên sản phẩm</th>
+                            <th scope="col">Đơn giá</th>
+                            <th scope="col">Số lượng</th>
+                            <th scope="col">Thành tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody id="fill-product">
+                    </tbody>
+                </table>
+            </div>
+            <div class="d-flex justify-content-end">
+                <a href="produce.html" class="btn btn-success me-3">
+                    <i class="fa fa-home"></i>
+                    Về trang chủ
+                </a>
+                <a href="thanks.html" class="btn btn-primary" id="paymentButton">
+                    <i class="fa fa-cart-shopping"></i>
+                    Thanh toán
+                  </a>
+
+            </div>
+
+        </div>
+    </main>
+
+
+    <div id="footer">
+        <div class="box-1">
+            <div class="logo">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <p>Cung cấp sản phẩm với chất lượng an toàn cho quý khách</p>
+        </div>
+        <div class="box-1">
+            <h3>NỘI DUNG</h3>
+            <ul class="quick-menu">
+                <div class="item">
+                    <a href="">Trang chủ</a>
+                </div>
+                <div class="item">
+                    <a href="">Sản phẩm</a>
+                </div>
+                <div class="item">
+                    <a href="">Blog</a>
+                </div>
+                <div class="item">
+                    <a href="">Liên hệ</a>
+                </div>
+            </ul>
+        </div>
+        <div class="box-1">
+            <h3>LIÊN HỆ</h3>
+            <form action="">
+                <input type="text" placeholder="Địa chỉ email" style="text-decoration: white;">
+                <button>Nhận tin</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="cart.js"></script>
+<script src="money.js"></script>
+</html>
